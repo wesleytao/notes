@@ -109,6 +109,108 @@ policy.theta += learning_rate * A * grad_logp
 print("Updated theta:\n", policy.theta)
 ```
 
+# Pytorch 
+```python
+import torch
+import torch.nn.functional as F
+
+# Hyperparameters
+d = 4   # input dimension (for the state space)
+k = 3   # number of actions
+
+# Dummy input state (shape: [d])
+x = torch.randn(d, requires_grad=False)
+
+# Initialize policy parameters, theta ∈ ℝ^(d × k)
+theta = torch.nn.Parameter(torch.randn(d, k))  # shape: [d, k]
+
+# Forward pass: compute logits and softmax probabilities
+logits = x @ theta  # shape: [k]
+probs = F.softmax(logits, dim=0)  # shape: [k]
+
+# Sample an action from the policy
+m = torch.distributions.Categorical(probs)
+action = m.sample()  # integer in [0, k-1]
+
+# Compute log-prob of that action
+log_prob = m.log_prob(action)  # scalar
+
+# Define a dummy reward
+reward = 1.0
+
+# Compute the policy gradient loss: -log p(a) * reward
+loss = -log_prob * reward
+
+# Backprop: compute ∇_theta of the objective
+loss.backward()
+
+# Print gradient (this is ∇_theta log p(a) * reward)
+print("Gradient stored in theta.grad:")
+print(theta.grad)
+
+```
+
+# TRL
+```python
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from trl import PPOTrainer, PPOConfig
+
+# Load a small pretrained language model (e.g. GPT-2)
+model_name = "gpt2"
+model = AutoModelForCausalLM.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+# Ensure a pad token is defined
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
+
+# Define PPO configuration for TRL.
+# Here we choose hyperparameters suitable for our toy example.
+ppo_config = PPOConfig(
+    learning_rate=1e-5,
+    batch_size=1,
+    mini_batch_size=1,
+    ppo_epochs=4,
+    init_kl_coef=0.01,
+    # Additional hyperparameters can be set here as needed.
+)
+
+# Initialize the PPOTrainer with our model, tokenizer, and config.
+ppo_trainer = PPOTrainer(ppo_config, model, tokenizer)
+
+# Define a simple dummy reward function.
+# For this toy example, we give a reward of 1 if the generated response
+# contains the word "reward" (case-insensitive), otherwise 0.
+def compute_reward(response_text):
+    return 1.0 if "reward" in response_text.lower() else 0.0
+
+# Define a simple prompt.
+prompt = "This is a test. Generate a sentence that includes the word:"
+
+# Prepare a batch (here, a list with a single prompt)
+queries = [prompt]
+
+# Use TRL's generate method to produce a response from the model.
+# (Under the hood, TRL will use the current policy to sample tokens.)
+response_tokens = ppo_trainer.generate(queries)
+# Decode the generated tokens to obtain a human-readable string.
+response_text = tokenizer.decode(response_tokens[0], skip_special_tokens=True)
+print("Generated response:", response_text)
+
+# Compute reward based on the generated response.
+reward = compute_reward(response_text)
+# For TRL, rewards are provided as a list (one per prompt in the batch).
+rewards = [reward]
+print("Reward:", rewards[0])
+
+# Perform a PPO update step using TRL.
+# This updates the model’s parameters using the prompt, generated response, and reward signal.
+ppo_trainer.step(queries, response_tokens, rewards)
+
+print("PPO update step completed.")
+
+```
+
 
 # Q & A 
 ---
