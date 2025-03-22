@@ -47,7 +47,9 @@ where $\mathbf{e}_a$ is the one-hot vector corresponding to action $a$, and $\ma
 Here is the raw NumPy implementation of this computation:
 
 
-# Code 
+# Bare Metal Numpy 
+gradient update 
+
 ```python
 import numpy as np
 
