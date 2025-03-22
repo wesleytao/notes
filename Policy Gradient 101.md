@@ -1,4 +1,26 @@
 # Policy Gradient 101
+1. [Policy Gradient 101](#policy-gradient-101)
+    - [Overview](#overview)
+    - [Policy Definition and Mathematical Formulation](#policy-definition-and-mathematical-formulation)
+      - State Vector and Logits
+      - Softmax Function
+      - Log-Probability & Gradient Derivation
+2. [Implementation Examples](#implementation-examples)
+    - [Bare Metal NumPy Implementation](#bare-metal-numpy-implementation)
+    - [PyTorch Implementation](#pytorch-implementation)
+    - [TRL Implementation](#trl-implementation)
+3. [Q & A](#q--a)
+    - [What is Gradient Descent in Supervised Learning?](#what-is-gradient-descent-in-supervised-learning)
+    - [What is the Policy Gradient Theorem in Reinforcement Learning?](#what-is-the-policy-gradient-theorem-in-reinforcement-learning)
+    - [Are These Just Stochastic Gradient Methods?](#are-these-just-stochastic-gradient-methods)
+    - [Are Loss and Reward the Same?](#are-loss-and-reward-the-same)
+    - [What Is Logistic Regression and Why "Logistic"?](#what-is-logistic-regression-and-why-logistic)
+    - [What Is the Softmax Function?](#what-is-the-softmax-function)
+    - [What’s the Chain Rule (in Calculus)?](#whats-the-chain-rule-in-calculus)
+    - [How to Compute \(\nabla_\Theta \log p_a\) in Policy Gradient?](#how-to-compute-nabla_theta-log-p_a-in-policy-gradient)
+    - [Final Comparison: Supervised vs. Policy Gradient Updates](#final-comparison-supervised-vs-policy-gradient-updates)
+
+
 
 The following example demonstrates how to implement a simple policy gradient update using NumPy, entirely from scratch—that is, without relying on automatic differentiation libraries such as PyTorch. The policy in this case is a linear model that outputs **logits**, which are then transformed into a probability distribution via the softmax function. An action is sampled from this distribution, and the gradient of the log-probability of that action is computed manually.
 
