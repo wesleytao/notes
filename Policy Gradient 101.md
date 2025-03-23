@@ -371,3 +371,81 @@ $$
 | Policy Gradient (RL)    | $\Theta \leftarrow \Theta + \eta \, \mathbb{E}[A(s,a) \nabla_\Theta \log \pi_\Theta(a \mid s)]$              | Maximize reward |
 
 ---
+
+
+### Q: What is logarithmic derivative identity?
+
+**A:**
+The logarithmic derivative identity states that if \( f(x) \) is a differentiable function and \( f(x) \neq 0 \), then
+
+$$
+\frac{d}{dx} \ln |f(x)| = \frac{f'(x)}{f(x)}.
+$$
+
+This follows directly from the chain rule. Essentially, it tells us that the derivative of the logarithm of a function is the ratio of the derivative of the function to the function itself. This identity is particularly useful when dealing with products or quotients of functions, as taking the logarithm converts multiplication into addition, thereby simplifying the differentiation process.
+
+---
+
+### Q: \( d_\theta f_\theta(x) \)
+
+**A:**
+For a function \( f_\theta(x) \) that depends on a parameter \(\theta\) (with \( f_\theta(x) \neq 0 \)), the logarithmic derivative with respect to \(\theta\) is given by
+
+$$
+\frac{d}{d\theta} \ln f_\theta(x) = \frac{d_\theta f_\theta(x)}{f_\theta(x)}.
+$$
+
+This identity follows directly from the chain rule. It shows that if you differentiate the logarithm of the function \( f_\theta(x) \) with respect to \(\theta\), you obtain the derivative of \( f_\theta(x) \) with respect to \(\theta\) divided by the function itself. Equivalently, you can express the derivative of the original function as
+
+$$
+d_\theta f_\theta(x) = f_\theta(x) \cdot \frac{d}{d\theta} \ln f_\theta(x).
+$$
+
+This relationship is especially useful in many areas such as statistics and optimization, where working with the logarithm of a function (for instance, a likelihood function) simplifies the differentiation process.
+
+---
+
+### Q: Does this have anything to do with expectation or integral?
+
+**A:**
+Yes, it does—especially in contexts where \( f_\theta(x) \) is a probability density or a parameter-dependent function integrated over some variable.
+
+#### Expectation and Integration Connection
+
+Consider a function \( f_\theta(x) \) that is a probability density function (pdf) with respect to \( x \). By definition, it satisfies
+
+$$
+\int f_\theta(x) \, dx = 1.
+$$
+
+If you differentiate this identity with respect to \(\theta\) (and under appropriate conditions allowing the interchange of differentiation and integration), you get
+
+$$
+\frac{d}{d\theta}\int f_\theta(x) \, dx = \int \frac{d}{d\theta} f_\theta(x) \, dx = 0.
+$$
+
+Now, using the logarithmic derivative identity
+
+$$
+\frac{d}{d\theta} f_\theta(x) = f_\theta(x) \cdot \frac{d}{d\theta}\ln f_\theta(x),
+$$
+
+the equation becomes
+
+$$
+\int f_\theta(x) \cdot \frac{d}{d\theta}\ln f_\theta(x) \, dx = 0.
+$$
+
+This shows that the expectation of the logarithmic derivative (often called the score function in statistics) with respect to the density \( f_\theta(x) \) is zero:
+
+$$
+\mathbb{E}\left[\frac{d}{d\theta}\ln f_\theta(x)\right] = 0.
+$$
+
+#### Why This Matters
+
+- **Statistical Estimation:** In maximum likelihood estimation, the score function is the derivative of the log-likelihood with respect to the parameter \(\theta\). The fact that its expectation is zero under regular conditions is fundamental in proving properties of estimators (like unbiasedness) and in deriving the Cramér-Rao lower bound.
+- **Differentiation Under the Integral Sign:** The process above is a common application of differentiating under the integral sign, which is a powerful technique in analysis and probability.
+
+Thus, the logarithmic derivative identity is deeply connected with both expectation and integration when dealing with parameter-dependent functions or probability densities.
+
