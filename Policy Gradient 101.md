@@ -449,3 +449,59 @@ $$
 
 Thus, the logarithmic derivative identity is deeply connected with both expectation and integration when dealing with parameter-dependent functions or probability densities.
 
+
+
+### Differentiating an Expectation with the Logarithm Trick
+
+Suppose you have an expectation of the form
+
+$$
+\mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\right] = \int A(x,c)\, p_\theta(x) \, dx,
+$$
+
+and you wish to compute its derivative with respect to the parameter \( \theta \).
+
+#### Step 1. Differentiate Under the Integral
+
+Differentiate the expectation with respect to \( \theta \):
+
+$$
+\frac{d}{d\theta}\mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\right] = \frac{d}{d\theta} \int A(x,c)\, p_\theta(x) \, dx.
+$$
+
+Assuming you can interchange the derivative and the integral, you obtain
+
+$$
+\frac{d}{d\theta}\mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\right] = \int A(x,c)\, \frac{d}{d\theta} p_\theta(x) \, dx.
+$$
+
+#### Step 2. Apply the Logarithm Trick
+
+The logarithm trick (or likelihood ratio trick) is based on the identity
+
+$$
+\frac{d}{d\theta} p_\theta(x) = p_\theta(x) \, \frac{d}{d\theta}\ln p_\theta(x),
+$$
+
+provided \( p_\theta(x) > 0 \). Substitute this into the integral:
+
+$$
+\frac{d}{d\theta}\mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\right] = \int A(x,c)\, p_\theta(x) \, \frac{d}{d\theta}\ln p_\theta(x) \, dx.
+$$
+
+#### Step 3. Express as an Expectation
+
+Recognize that the right-hand side is the expectation of \( A(x,c) \) times the derivative of the log-probability:
+
+$$
+\frac{d}{d\theta}\mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\right] = \mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\,\frac{d}{d\theta}\ln p_\theta(x)\right].
+$$
+
+#### Summary
+
+Using the logarithm trick, the derivative with respect to \( \theta \) of the expectation \( \mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\right] \) is given by
+
+$$
+\frac{d}{d\theta}\mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\right] = \mathbb{E}_{x \sim p_\theta(x)}\left[A(x,c)\,\frac{d}{d\theta}\ln p_\theta(x)\right].
+$$
+
