@@ -1,4 +1,42 @@
 
+# DFS — What It Really Solves
+
+**DFS answers one fundamental question: "What can I reach from here?"**
+
+Everything else is a variation of that idea.
+
+---
+
+## The 5 Things DFS Does
+
+### 1. Can A reach B? → Reachability & Components
+"Are these connected? How many groups exist?"
+Grids, graphs, flood fill, islands — all the same thing.
+
+### 2. Is there a loop? → Cycle Detection
+"Can I reach where I already am?"
+If you revisit a node that's still in progress — cycle.
+
+### 3. What order should I do things? → Topological Sort
+"If A must come before B, what's a valid sequence?"
+Finish exploring a node → record it → reverse at the end.
+
+### 4. Can I find a valid assignment? → Backtracking
+"Try a choice, go deep, undo if stuck."
+Permutations, N-Queens, Sudoku, word search — all this pattern.
+
+### 5. What's the answer for this subtree? → Tree / DP
+"Compute children first, then combine."
+Heights, diameters, longest paths, subtree sums.
+
+---
+
+## When NOT to Use DFS
+
+**Shortest path** → BFS.
+**Level-by-level** → BFS.
+Pretty much everything else → DFS is fine.
+
 ```python
 # ----------------------------
 # DFS Template (Recursive)
