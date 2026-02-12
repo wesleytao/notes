@@ -189,4 +189,6 @@ Cross Edge:
 → disjoint intervals, no ancestor relationship
 ```
 
+<img width="1025" height="1209" alt="Screenshot 2026-02-11 at 5 02 30 PM" src="https://github.com/user-attachments/assets/206c57eb-800c-4b50-aa53-96de60dd9bf0" />
+
 
