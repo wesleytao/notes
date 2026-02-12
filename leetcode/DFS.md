@@ -74,7 +74,30 @@ def dfs_stack(start, graph):
                 stack.append(v)
 
     return visited
+
+# ----------------------------
+# DFS Template (trick to push it back) 
+# ----------------------------
+stack = [(start, 0)]  # (node, 0=enter, 1=exit)
+while stack:
+    u, t = stack.pop()
+    if t == 0:
+        if u in visited: 
+            continue
+        visited.add(u)
+        pre_process(u)
+        stack.append((u, 1))          # schedule post
+        for v in reversed(graph[u]):
+            if v not in visited:
+                stack.append((v, 0))
+    else:
+        post_process(u)
+
 ```
+
+
+
+
 
 | # | LeetCode | Topic |
 |---:|---|---|
