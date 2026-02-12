@@ -41,39 +41,60 @@ Pretty much everything else → DFS is fine.
 # ----------------------------
 # DFS Template (Recursive)
 # ----------------------------
-def dfs_recursive(start, graph):
-    visited = set()
+def dfs_rec(start, graph):
+    seen = set()
 
     def dfs(u):
-        visited.add(u)
-        # process u here (preorder)
-        for v in graph[u]:
-            if v not in visited:
+        seen.add(u)
+        # process u here
+        for v in graph.get(u, []):
+            if v not in seen:
                 dfs(v)
-        # process u here (postorder)
 
     dfs(start)
-    return visited
+    return seen
 # ----------------------------
 # DFS Template (Iterative Stack)
 # ----------------------------
-def dfs_stack(start, graph):
-    visited = set()
+def dfs_iter(start, graph):
+    seen = set([start])
     stack = [start]
 
     while stack:
         u = stack.pop()
-        if u in visited:
-            continue
-        visited.add(u)
         # process u here
-
-        # push neighbors (reverse if you care about matching recursive order)
-        for v in graph[u]:
-            if v not in visited:
+        for v in graph.get(u, []):
+            if v not in seen:
+                seen.add(v)
                 stack.append(v)
 
-    return visited
+    return seen
+
+# ----------------------------
+# DFS Template (Iterative Stack visit all node)
+# ----------------------------
+
+def dfs_all_nodes(graph):
+    seen = set()
+
+    for start in graph:
+        if start in seen:
+            continue
+        stack = [start]
+        seen.add(start)
+
+        while stack:
+            u = stack.pop()
+            # process u here
+            for v in graph.get(u, []):
+                if v not in seen:
+                    seen.add(v)
+                    stack.append(v)
+
+    return seen
+
+
+
 
 # ----------------------------
 # DFS Template (trick to push it back) 
