@@ -96,3 +96,97 @@ def dfs_stack(start, graph):
 |16 | **329. Longest Increasing Path in a Matrix** ⭐ **(Sequence Step 6)** | DFS + memoization (DP on DAG) |
 
 
+# DFS Cheat Sheet
+
+## 1. DFS Framework (Cycle Detection / Topological Sort)
+
+```python
+DFS(G):
+    for each v in V:
+        discovered[v] = 0   # 0 = unvisited
+
+    for each u in V:
+        if discovered[u] == 0:
+            Search(u)
+```
+
+## 2. DFS Search Procedure
+
+```python
+Search(u):
+    previsit(u)
+    discovered[u] = 1       # mark as discovered
+
+    for each edge (u, v) in E:
+        if discovered[v] == 0:
+            Search(v)
+
+    postvisit(u)
+```
+
+## 3. DFS Time Stamps
+
+We track:
+- `S(u)` = start time (previsit time)
+- `E(u)` = end time (postvisit time)
+
+Every vertex gets an interval: `S(u) ---- E(u)`
+
+Nested intervals determine edge types.
+
+## 4. Edge Classification (Directed Graph)
+
+Let edge be `(u, v)`.
+
+### 🔴 Back Edge — edge to an **ancestor** in DFS tree
+
+```
+S(v) < S(u) < E(u) < E(v)
+```
+
+- `v` started before `u` and has **not finished** when `u` finishes → `v` is ancestor of `u`
+- **Back edge ⇒ Cycle exists**
+
+### 🟢 Forward Edge — edge to a **descendant** (not tree edge)
+
+```
+S(u) < S(v) < E(v) < E(u)
+```
+
+- `v` is inside `u`'s interval → `v` is a descendant
+
+### 🔵 Cross Edge — edge between two **different DFS branches**
+
+```
+S(v) < E(v) < S(u) < E(u)
+```
+
+or
+
+```
+S(u) < E(u) < S(v) < E(v)
+```
+
+- Intervals do **NOT** overlap — neither is ancestor of the other
+
+
+### Mental Model Summary
+
+```
+Forward / Tree Edge:
+[u .................. ]
+     [v .......... ]
+→ v is descendant of u
+
+Back Edge (cycle!):
+[v .................. ]
+     [u .......... ]
+→ v is ancestor of u
+
+Cross Edge:
+[v .... ]
+               [u .... ]
+→ disjoint intervals, no ancestor relationship
+```
+
+
