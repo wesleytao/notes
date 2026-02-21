@@ -1,4 +1,6 @@
-# 28-Week Men's Physique Contest Prep Plan
+# 28-Week Men's Physique Contest Prep Plan (Updated)
+
+*Calibrated with Strong app training data (465 sessions, 2022–2026)*
 
 ---
 
@@ -12,8 +14,9 @@
 | Weight | 172 lbs |
 | Body Fat | ~21% (DEXA) |
 | Lean Mass (est.) | ~136 lbs |
-| Training Age | 3–4 years consistent |
-| Prior Competition | 1 show — feedback was "needed ~4 more weeks of fat loss" |
+| Training Age | 3.5+ years consistent (465 logged sessions since June 2022) |
+| Recent Frequency | ~3.75 days/week (last 28 days) → ramping to 5 days/week |
+| Prior Competition | 1 show — showed up ~4 weeks too soft |
 | Known Weak Points | Mid-back thickness, lateral deltoids, posterior chain |
 | Current Cardio | None (7 min warm-up only) |
 | Current Steps | Not tracked |
@@ -21,6 +24,25 @@
 | Supplements | Creatine |
 | Lifestyle Stressor | Medium (active job search) |
 | Posing Practice | None |
+
+---
+
+## Current Strength Profile (from Strong export, last 84 days)
+
+| Lift | Best Recent Set | Est. 1RM (Epley) | Date |
+|------|----------------|:-----------------:|------|
+| Barbell Squat | 275 × 13 | ~394 | Dec 7, 2025 |
+| Barbell Bench Press | 185 × 13 | ~265 | Dec 29, 2025 |
+| Incline Barbell Bench | 165 × 8 | ~209 | Feb 15, 2026 |
+| Bodyweight Pull-Up | 8+ reps at BW | — | Current |
+| Bent Over Barbell Row | 155 × 18 | ~248 | Dec 30, 2025 |
+
+**Key observations:**
+- Significantly stronger than the old prep data (bench was 155×5, squat was 225×8 during the last prep cycle)
+- Already training many exercises from this plan: assisted pull-ups, chest-supported rows, face pulls, incline DB press, pec deck, cable triceps, chest dips, banded shoulder circles
+- Upper body push and vertical pull are the current training emphasis — lateral delt and dedicated back-thickness work need to ramp up
+- Lower body frequency is already deprioritized (aligns with MP approach)
+- Frequency ramping from ~3.75 to 5 days/week is a meaningful jump — Phase 1 builds into this
 
 ---
 
@@ -33,7 +55,9 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 3. No cardio or step tracking meant you had no secondary lever when fat loss stalled
 4. Getting sick at ~4 weeks out suggests you were under-recovered, under-nourished, or both — possibly from a panic-cut in the final stretch
 
-**This plan is built to prevent all four of those problems.**
+**Your old training program also wasn't competition-specific.** It was general hypertrophy (chest/bicep splits, no delt or back emphasis, percentage-based progression with AMRAP test weeks). The exercises were fine but the volume allocation didn't target what MP judges score.
+
+**This plan is built to prevent all of those problems.**
 
 ---
 
@@ -45,7 +69,7 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 
 **Conditioning target:** 8–10% body fat. Not the striated-glutes condition of classic bodybuilding. You want lean, dry, full — not emaciated.
 
-**Realistic stage weight:** 142–148 lbs depending on lean mass retention. That's 24–30 lbs of fat loss over 28 weeks (~0.9 lb/week average).
+**Realistic stage weight:** 142–148 lbs depending on lean mass retention. That's 24–30 lbs of fat loss over 28 weeks (~0.9 lb/week average). Given your strength base, aim to preserve as much of that as possible — coming in at the upper end (148) with full muscle is better than 142 and flat.
 
 ---
 
@@ -53,9 +77,19 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 
 | Phase | Weeks Out | Focus | Training Volume (Compounds) | Compound Reps | Deficit |
 |-------|-----------|-------|-----------------------------|---------------|---------|
-| 1 — Foundation | 28–16 | Build habits, start fat loss, push strength | 3 working sets (1 top + 2 back-off) | Top: 5–8 / Back-off: 8–12 | Small to moderate |
+| 1 — Foundation | 28–16 | Build habits, ramp frequency to 5 days, start fat loss, push strength | 3 working sets (1 top + 2 back-off) | Top: 5–8 / Back-off: 8–12 | Small to moderate |
 | 2 — Mid-Prep | 15–8 | Hold muscle, deepen deficit, refine posing | 2 working sets (1 top + 1 back-off) | 6–10 / 8–12 | Moderate |
 | 3 — Final Push | 7–0 | Get stage-lean, peak, present | 2 working sets (1 top set only in final 3–4 wks if needed) | 8–15 | Aggressive but controlled |
+
+### Frequency Ramp (Weeks 28–24)
+
+You're currently at ~3.75 training days/week. Jumping straight to 5 risks overreaching.
+
+| Week | Training Days | Notes |
+|------|:------------:|-------|
+| 28 | 4 | Run Days 1, 2, 4, 5. Skip Day 7 active recovery. |
+| 27 | 4–5 | Add Day 7 if recovery is solid. |
+| 26 onward | 5 | Full split operational. |
 
 ---
 
@@ -77,14 +111,14 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 
 ## Day 1 — Upper A: Chest + Back (Heavy)
 
-| # | Exercise | Working Sets | Rep Range | Notes |
-|--:|----------|:------------:|:---------:|-------|
-| ⭐ | Incline Bench Press (Barbell) | 3→2 | 5–8 / 8–12 | Progressive overload. Upper chest is an MP priority. |
-| 2 | Chest-Supported Row | 3 | 8–12 | **Weak point.** Squeeze scapulae hard, 2s hold at contraction. Elbows wide for mid-back. |
-| 3 | Incline Bench Press (Dumbbell) | 3 | 8–12 | Full stretch at bottom, moderate weight. |
-| 4 | Incline Dumbbell Row | 3 | 8–12 | Pronated grip, drive elbows wide. Mid-back thickness. |
-| 5 | Pec Deck (Machine) | 3 | 12–15 | Deep stretch, controlled squeeze. |
-| 6 | Face Pull (Cable) | 3 | 15–20 | Rear delt + external rotation health. |
+| # | Exercise | Working Sets | Rep Range | Starting Weight (Phase 1) | Notes |
+|--:|----------|:------------:|:---------:|:-------------------------:|-------|
+| ⭐ | Incline Bench Press (Barbell) | 3→2 | 5–8 / 8–12 | Top: 155 lb / Back-off: 135 lb | Progressive overload. Upper chest is an MP priority. You recently hit 165×8 — start conservative at 155 to establish the rep scheme, then push. |
+| 2 | Chest-Supported Row | 3 | 8–12 | 45 lb DBs (per hand) | **Weak point.** You did 4×12 at 45 lb on Feb 21 — good starting point. Squeeze scapulae hard, 2s hold at contraction. Elbows wide for mid-back. |
+| 3 | Incline Bench Press (Dumbbell) | 3 | 8–12 | 55–60 lb DBs | You've been doing incline DB work recently (16 sets in last 28 days). Full stretch at bottom, moderate weight. |
+| 4 | Incline Dumbbell Row | 3 | 8–12 | 40–45 lb DBs | Pronated grip, drive elbows wide. Mid-back thickness. New movement — start light and find the groove. |
+| 5 | Pec Deck (Machine) | 3 | 12–15 | Per current working weight | Already in your rotation (9 sets in last 28 days). Deep stretch, controlled squeeze. |
+| 6 | Face Pull (Cable) | 3 | 15–20 | 40 lb | You logged face pull to external rotation at 40 lb recently. Continue from there. |
 
 **Session volume:** Chest 9 sets | Back 9 sets | Rear delts 3 sets
 
@@ -92,16 +126,16 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 
 ## Day 2 — Lower: Full Leg Day
 
-| # | Exercise | Working Sets | Rep Range | Notes |
-|--:|----------|:------------:|:---------:|-------|
-| ⭐ | Barbell Squat | 3→2 | 5–8 / 8–12 | Progressive overload. Technical failure only. |
-| 2 | Romanian Deadlift (Barbell) | 3 | 8–12 | Hamstring-glute tie-in. Stop before back rounds. |
-| 3 | Leg Extension (Machine) | 3 | 12–15 | Squeeze at top. |
-| 4 | Lying Leg Curl (Machine) | 3 | 12–15 | Full ROM, control the eccentric. |
-| 5 | Standing Calf Raise | 3 | 12–15 | Full ROM, 2s pause in stretch. Maintenance only. |
-| 6 | Vacuum Practice | 3 holds | 20–30s each | Between sets or at end of session. Waist tightness for stage. |
+| # | Exercise | Working Sets | Rep Range | Starting Weight (Phase 1) | Notes |
+|--:|----------|:------------:|:---------:|:-------------------------:|-------|
+| ⭐ | Barbell Squat | 3→2 | 5–8 / 8–12 | Top: 245 lb / Back-off: 225 lb | You hit 275×13 in December. Start at ~62% 1RM for back-off, ~72% for top set. Technical failure only. |
+| 2 | Romanian Deadlift (Barbell) | 3 | 8–12 | 185 lb | Based on your deadlift history (345 1RM). Hamstring-glute tie-in. Stop before back rounds. |
+| 3 | Leg Extension (Machine) | 3 | 12–15 | Per current working weight | Squeeze at top. |
+| 4 | Lying Leg Curl (Machine) | 3 | 12–15 | Per current working weight | Full ROM, control the eccentric. |
+| 5 | Standing Calf Raise | 3 | 12–15 | Per current working weight | Full ROM, 2s pause in stretch. Maintenance only. |
+| 6 | Vacuum Practice | 3 holds | 20–30s each | — | Between sets or at end of session. Waist tightness for stage. |
 
-> **Why only one leg day:** Board shorts cover everything below mid-thigh. You train legs enough to stay healthy, support metabolism, and maintain proportion. You don't need to build them for MP judging. The volume that would go to a second leg day is redistributed to shoulders and back.
+> **Why only one leg day:** Board shorts cover everything below mid-thigh. You train legs enough to stay healthy, support metabolism, and maintain proportion. The volume that would go to a second leg day is redistributed to shoulders and back.
 
 **Session volume:** Quads 6 sets | Hamstrings 6 sets | Calves 3 sets
 
@@ -117,37 +151,45 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 
 ## Day 4 — Upper B: Shoulders + Arms
 
-| # | Exercise | Working Sets | Rep Range | Notes |
-|--:|----------|:------------:|:---------:|-------|
-| — | Banded Shoulder Circle | 2 | — | Warm-up / activation |
-| — | Face Pull to External Rotation | 2 | 12–15 | Warm-up / activation |
-| 1 | Lateral Raise (Cable) | 4 | 12–15 | **MP priority.** Slight lean-away for full ROM. Controlled. |
-| 2 | Lateral Raise (Machine) | 3 | 15–20 | Chase the burn. Partials on last set are fine. |
-| 3 | Rear Delt Fly (Cable or Machine) | 3 | 15–20 | Round out the rear cap. |
-| 4 | Overhead Cable Triceps Extension | 3 | 12–15 | Long head emphasis. Full stretch behind head. |
-| 5 | EZ Bar Curl | 3 | 10–12 | Strict form, no body English. |
-| 6 | Incline Curl (Dumbbell) | 3 | 12–15 | Deep stretch at bottom for long head. |
-| 7 | Chest Dip (Assisted) | 3 | 10–12 | Lower chest + tricep. Lean forward slightly. |
+| # | Exercise | Working Sets | Rep Range | Starting Weight (Phase 1) | Notes |
+|--:|----------|:------------:|:---------:|:-------------------------:|-------|
+| — | Banded Shoulder Circle | 2 | — | Bodyweight (band) | Already in your routine. Keep it. |
+| — | Face Pull to External Rotation | 2 | 12–15 | 30–40 lb | Already in your routine (8 sets in last 28 days). Warm-up / activation. |
+| 1 | Lateral Raise (Cable) | 4 | 12–15 | Start at 15–20 lb | **MP priority.** This is a NEW emphasis for you — lateral delt volume has been low. Slight lean-away for full ROM. Controlled. |
+| 2 | Lateral Raise (Machine) | 3 | 15–20 | Per machine | Chase the burn. Partials on last set are fine. |
+| 3 | Rear Delt Fly (Cable or Machine) | 3 | 15–20 | Start light, find MMC | Round out the rear cap. |
+| 4 | Overhead Cable Triceps Extension | 3 | 12–15 | Per current working weight | You've been doing cable triceps work (10 sets in last 28 days). Long head emphasis. Full stretch behind head. |
+| 5 | EZ Bar Curl | 3 | 10–12 | Per current working weight | Strict form, no body English. |
+| 6 | Incline Curl (Dumbbell) | 3 | 12–15 | 20–25 lb DBs | Deep stretch at bottom for long head. |
+| 7 | Chest Dip (Assisted) | 3 | 10–12 | Per current assistance level | Already in your routine (9 sets in last 28 days). Lean forward slightly for lower chest + tricep. |
 
 **Session volume:** Lateral delts 7 sets | Rear delts 3 (+2 warm-up) | Triceps 6 sets | Biceps 6 sets
+
+### Note on Lateral Delt Ramp-Up
+
+Your training history shows virtually no dedicated lateral raise volume. Going from ~0 to 7 sets/week is a big jump. For weeks 28–26, consider:
+- 3 sets cable lateral raise + 2 sets machine lateral raise (5 total)
+- Ramp to full 7 sets by week 25
+
+This prevents shoulder joint irritation and lets you establish the mind-muscle connection first.
 
 ---
 
 ## Day 5 — Upper C: Back + Rear Delts (Weak Point Day)
 
-| # | Exercise | Working Sets | Rep Range | Notes |
-|--:|----------|:------------:|:---------:|-------|
-| — | Banded Shoulder Circle | 2 | — | Warm-up / activation |
-| ⭐ | Pull-Up (Assisted) | 3→2 | 5–8 → build to 15 | Progressive overload via reducing assistance. Wide grip, full ROM. |
-| 2 | Lat Pulldown (Single Arm) | 3 | 10–12 | Full stretch at top, squeeze at bottom. Lat width. |
-| 3 | Chest-Supported Row (or Machine Row) | 3 | 8–12 | Mid-back thickness. Different grip or angle than Day 1. |
-| 4 | Straight-Arm Pulldown (Cable) | 3 | 12–15 | Lat isolation. Mind-muscle connection. |
-| 5 | Face Pull (Cable) | 3 | 15–20 | Rear delt + upper back detail. |
-| 6 | Rear Delt Fly (Cable) | 3 | 15–20 | Finish rear delts for the week. |
-| 7 | Hanging Leg Raise | 3 | 12–15 | Abs. Controlled, no swinging. |
-| 8 | Cable Crunch | 3 | 12–15 | Light weight, focus on contraction, not loading. Avoid thickening obliques. |
+| # | Exercise | Working Sets | Rep Range | Starting Weight (Phase 1) | Notes |
+|--:|----------|:------------:|:---------:|:-------------------------:|-------|
+| — | Banded Shoulder Circle | 2 | — | Bodyweight (band) | Warm-up / activation. |
+| ⭐ | Pull-Up (Bodyweight) | 3→2 | 8–12 → build to 15 | Bodyweight (172 lb) | You can do 8+ BW reps — start here. Once you hit 15 clean reps, add weight (belt or DB between feet). |
+| 2 | Lat Pulldown (Single Arm, Cable) | 3 | 10–12 | Per current working weight | You've been doing cable lat pulldowns (11 sets in last 28 days). Full stretch at top, squeeze at bottom. |
+| 3 | Chest-Supported Row (or Machine Row) | 3 | 8–12 | 45–50 lb DBs | Mid-back thickness. Use a different grip or angle than Day 1 (e.g., neutral grip here if wide grip on Day 1). |
+| 4 | Straight-Arm Pulldown (Cable) | 3 | 12–15 | 40–50 lb | Lat isolation. Mind-muscle connection. |
+| 5 | Face Pull (Cable) | 3 | 15–20 | 40 lb | Rear delt + upper back detail. |
+| 6 | Rear Delt Fly (Cable) | 3 | 15–20 | Start light | Finish rear delts for the week. |
+| 7 | Hanging Leg Raise | 3 | 12–15 | Bodyweight | Abs. Controlled, no swinging. |
+| 8 | Cable Crunch | 3 | 12–15 | Light | Focus on contraction, not loading. Avoid thickening obliques. |
 
-> **Pull-up progression:** Same double progression logic. Keep the same assistance level until you hit 15 reps → reduce assistance → reps drop to ~8–10 → build back up. Once you reach bodyweight pull-ups for 10+ reps, switch to weighted pull-ups.
+> **Pull-up progression:** You're past the assisted phase. Use double progression: hold BW until you hit 15 reps across all sets → add 10 lb → reps drop to ~8–10 → build back up. This is a strength you have over the original plan's assumption.
 
 **Session volume:** Back (lats/mid-back) 12 sets | Rear delts 6 sets | Abs 6 sets
 
@@ -170,18 +212,16 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 
 ## Weekly Volume Audit
 
-**MP-biased volume allocation. Upper body is the show.**
-
 | Muscle Group | Sets/Week | Priority | Why |
 |-------------|:---------:|:--------:|-----|
-| Back (lats + mid-back) | 21–24 | 🔴 #1 priority | Lat width and mid-back thickness create the V-taper. Identified weak point. |
-| Lateral Delts | 14–16 | 🔴 #1 priority | Shoulder width is the top of the V. Identified weak point. |
-| Rear Delts | 10–14 | 🟠 High | Visible in back pose and side turns. Completes 3D delt look. |
-| Chest (upper bias) | 9–12 | 🟡 Moderate | Upper chest fullness matters for front pose. Maintained, not prioritized. |
+| Back (lats + mid-back) | 21–24 | 🔴 #1 priority | Lat width and mid-back thickness create the V-taper. Identified weak point. Your bent-over row (155×18) and recent chest-supported row work are a good base to build from. |
+| Lateral Delts | 14–16 | 🔴 #1 priority | Shoulder width is the top of the V. Identified weak point. **Currently under-trained** — this is the biggest volume change from your current programming. |
+| Rear Delts | 10–14 | 🟠 High | Visible in back pose and side turns. Completes 3D delt look. Face pulls are already in your routine — adding dedicated fly work. |
+| Chest (upper bias) | 9–12 | 🟡 Moderate | Upper chest fullness matters for front pose. Your bench is strong (185×13). Maintained, not prioritized. |
 | Biceps | 6–9 | 🟡 Moderate | Visible in front and side poses. Adequate from curls + rowing. |
-| Triceps | 6–9 | 🟡 Moderate | Visible in side turn. Adequate from pressing + direct work. |
-| Abs | 6–9 | 🟡 Moderate | Centerpiece of front pose. Train for tightness, not thickness. |
-| Quads | 6–9 | 🟢 Maintenance | Not visible on stage. Trained for health and proportion. |
+| Triceps | 6–9 | 🟡 Moderate | Visible in side turn. Already getting cable triceps work. Adequate from pressing + direct work. |
+| Abs | 6–9 | 🟡 Moderate | Centerpiece of front pose. Train for tightness, not thickness. Your old program had an ab menu (pick 2 exercises per day) — this plan is more targeted. |
+| Quads | 6–9 | 🟢 Maintenance | Not visible on stage. Your squat is strong (275×13) — maintain, don't build. |
 | Hamstrings/Glutes | 6–9 | 🟢 Maintenance | Not visible on stage. Trained for health and posterior chain function. |
 | Calves | 3 | 🟢 Maintenance | Not visible on stage. Minimal investment. |
 
@@ -197,11 +237,15 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 - Isolations: Double progression at 12–20 reps.
 - Stall breakers: rest-pause (rack 10s, finish reps) or partial reps in safe ROM.
 
+**Transition from your old progression style:** Your previous program used percentage-based programming with AMRAP test weeks (e.g., 3×8 at 80%, working up to AMRAP at 90%). The new approach is simpler — double progression with RPE awareness. No need to calculate percentages. Just push the reps, add weight when you hit the top of the range, and log the RPE on top sets.
+
 **Habits to establish in this phase (you weren't doing these before):**
 - Daily step tracking (start measuring, then set a target)
 - Structured meal prep replacing the untracked cheat meal
 - Posing practice 2x/week
 - Weekly check-ins (weight, waist, photos)
+- **Logging RPE on top sets in Strong** (you have the infrastructure, just add this data point)
+- **Logging assistance weight on assisted exercises** (your Strong data has gaps here — fix this for trackability)
 
 ### Phase 2 (Weeks 15–8) — Hold the Line
 
@@ -210,7 +254,16 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 - "Wins" = maintaining the same weight/reps, cleaner form, lower RPE at the same load, or stable performance while bodyweight drops.
 - If strength drops >10% on a lift for 2+ consecutive weeks, flag it immediately.
 
-**Mindset:** You are preserving muscle. The deficit does the fat loss work. Don't chase PRs. Don't panic.
+**Benchmark targets to hold (based on your current strength):**
+
+| Lift | Phase 2 "Hold" Target | Red Flag Threshold |
+|------|:---------------------:|:------------------:|
+| Incline Bench (top set) | 155+ × 5–8 | Below 140 × 5 |
+| Barbell Squat (top set) | 245+ × 5–8 | Below 225 × 5 |
+| Pull-Up (BW or weighted) | 8+ reps at current load | Below 6 reps at BW |
+| Chest-Supported Row | 45+ lb DBs × 8–12 | Below 40 lb × 8 |
+
+**Mindset:** You are preserving muscle. The deficit does the fat loss work. Don't chase PRs. Don't panic. Your strength base is solid — the goal is to arrive on stage still moving respectable weight.
 
 ### Phase 3 (Weeks 7–0) — Arrive Stage-Lean This Time
 
@@ -234,6 +287,8 @@ You showed up 4 weeks too soft. That means one or more of the following happened
 | 5 | 4 | Volume -30–40%. Transition toward peak week. |
 
 **Auto-regulation override:** If you feel destroyed for 5+ consecutive days (sleep tanking, lifts cratering, mood wrecked, getting sick), take a deload regardless of schedule. Getting sick at 4 weeks out last time was your body telling you it was done. Listen this time.
+
+**Note on your training history:** Your old program included deloads but they were infrequent (one visible at W17 in the old log). Your volume has also been inconsistent week-to-week (tonnage ranged from 21k to 84k in recent weeks, with an anomalous 117k spike). The scheduled deloads here are non-negotiable recovery points, not optional.
 
 ---
 
@@ -267,6 +322,8 @@ Your weekly family cheat meal at ~1,500 kcal is currently unmanaged. At a 500 kc
 
 > **Weekly average: ~2,370 kcal/day.** Run this for 14–21 days before adjusting. If you're not losing ~0.7–1.0 lb/week on average, adjust down. If you're losing faster than 1.25 lb/week AND performance is tanking, adjust up.
 
+> **Calibration note:** Given your current lack of cardio and step tracking, your actual TDEE may be lower than expected. Be honest with tracking for the first 2–3 weeks and let the scale tell you if this starting point is right.
+
 ### Phase 2 — Weeks 15–8
 
 | Day Type | Calories | Protein | Fat | Carbs |
@@ -294,7 +351,7 @@ Your weekly family cheat meal at ~1,500 kcal is currently unmanaged. At a 500 kc
 | Losing too fast | >1.25 lb/week for 2 weeks + performance tanking | +100–150 kcal/day (add carbs) |
 | Loss stalled | <0.6 lb/week for 2 weeks, adherence confirmed | -150 kcal/day (cut carbs) OR add ~2,000 steps/day |
 | Single bad weigh-in | Weight up 2 lbs one morning | Do nothing. Check the 7-day average. |
-| Strength cratering | >10% drop for 2+ weeks | Assess sleep first → then consider +100 kcal or deload |
+| Strength cratering | >10% drop for 2+ weeks (use benchmark table above) | Assess sleep first → then consider +100 kcal or deload |
 | Cheat meal blowout | Went 2,000+ kcal over | Don't compensate next day. Log it, move on, tighten next week. |
 
 ### Refeeds and Diet Breaks
@@ -372,7 +429,7 @@ Men's Physique uses **quarter turns**, not the mandatory bodybuilding poses. You
 
 ### Vacuum Practice
 
-Vacuums are trained 3x/week as part of your ab work. Start with 3 holds of 15–20 seconds, build to 30–60 second holds. A tight vacuum during front and side poses is a massive visual advantage in MP — it makes your waist look smaller and your shoulders look wider.
+Vacuums are trained 3x/week as part of your ab work (included in Day 2 programming). Start with 3 holds of 15–20 seconds, build to 30–60 second holds. A tight vacuum during front and side poses is a massive visual advantage in MP — it makes your waist look smaller and your shoulders look wider.
 
 ---
 
@@ -428,7 +485,7 @@ Every 7 days (same day, same conditions), assess:
 
 - [ ] 7-day average weight (trend direction and rate of loss)
 - [ ] Waist measurement (at navel, fasted, morning)
-- [ ] Top set performance on the 3 tracked compounds (squat, incline bench, pull-up)
+- [ ] Top set performance on the 3 tracked compounds (incline bench, squat, pull-up)
 - [ ] Sleep quality (hours + subjective 1–10)
 - [ ] Hunger and energy (subjective 1–10)
 - [ ] Step average for the week (are you hitting target?)
@@ -437,6 +494,19 @@ Every 7 days (same day, same conditions), assess:
 - [ ] Cheat meal / refeed tracked (yes/no + approximate kcal)
 
 > **Red flag rule:** If 3 or more indicators are trending negatively for 2 consecutive weeks, something needs to change. Adjust one variable (calories, steps, cardio, or volume) — not all of them at once.
+
+---
+
+## Strong App Logging Standards
+
+Your Strong data has some gaps that reduce trackability. Fix these going forward:
+
+| Issue | Fix |
+|-------|-----|
+| Assisted pull-ups/dips logged with 0 or inconsistent weight | Always log the **assistance weight** the machine is set to. As assistance decreases, that's progress. (Note: now doing BW pull-ups, so this mainly applies to assisted dips.) |
+| No RPE logged | Add RPE to at least your **top set on compounds** each session. Use the notes field in Strong. |
+| Inconsistent week-to-week tonnage (21k–117k range) | The structured program should normalize this. Flag any week that deviates >30% from the prior week. |
+| Session duration unreliable | Not critical, but try to log start/end time manually if Strong isn't capturing it. |
 
 ---
 
@@ -465,7 +535,31 @@ Every 7 days (same day, same conditions), assess:
 | Got sick at 4 weeks out | Deload schedule + illness prevention protocol + single-variable adjustments |
 | Showed up 4 weeks behind | Weekly check-ins with early warning triggers at Week 12 |
 | Training not competition-specific | MP-biased volume: delts and back prioritized, legs maintained |
+| General hypertrophy split (chest/bicep days) | V-taper focused split with weak point days |
+| %-based progression with AMRAP tests | Simple double progression with RPE tracking |
+| Inconsistent volume week-to-week (21k–117k tonnage) | Structured volume with scheduled deloads |
+| ~3.75 days/week frequency | 5 days/week with frequency ramp-up |
+| No lateral delt emphasis | 14–16 sets/week lateral delt priority |
+| Assisted pull-ups only | Bodyweight pull-ups → weighted pull-up progression |
+| Strength baseline unknown mid-prep | Benchmark hold targets defined for Phase 2–3 |
 
 ---
 
-*Plan built from multi-model coaching analysis. Validated against evidence-based natural bodybuilding prep principles. All numbers are starting points — the 7-day trend and weekly check-ins tell you what to adjust and when.*
+## Starting Weight Quick Reference Card
+
+**Phase 1 top-set starting points (conservative — room to progress):**
+
+| Exercise | Starting Weight | Progression Target by Week 16 |
+|----------|:--------------:|:-----------------------------:|
+| Incline Bench Press (BB) | 155 lb × 5–8 | 175+ lb × 5–8 |
+| Barbell Squat | 245 lb × 5–8 | 275+ lb × 5–8 (hold here) |
+| Pull-Up (BW) | BW × 8–12 | BW+10 lb × 8–10 |
+| Chest-Supported Row | 45 lb DBs × 8–12 | 55+ lb DBs × 8–12 |
+| Romanian Deadlift | 185 lb × 8–12 | 205+ lb × 8–12 |
+| Cable Lateral Raise | 15–20 lb × 12–15 | 25+ lb × 12–15 |
+
+> These are starting points, not ceilings. Push the logbook in Phase 1. The strength you build now is the muscle you preserve later.
+
+---
+
+*Plan built from multi-model coaching analysis and calibrated against 465 sessions of Strong app training data. All numbers are starting points — the 7-day trend and weekly check-ins tell you what to adjust and when.*
