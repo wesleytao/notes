@@ -1,67 +1,89 @@
 
-## Client Profile
+# Client Profile — Condensed (Dated & Standardized)
+
+**Last Updated:** 2026-02-22  
+
+---
+
+## Basic Information
 
 | Field | Detail |
 |-------|--------|
-| Division | Men's Physique (NPC or natural — TBD by Week 20) |
+| Division | Men’s Physique (NPC or natural — decision pending) |
 | Age | 32 |
-| Height | 5'10" |
-| Weight | 172 lbs |
+| Height | 5'10" (178 cm) |
+| Bodyweight | 172 lb (78.0 kg) |
 | Body Fat | ~21% (DEXA) |
-| Lean Mass (est.) | ~136 lbs |
-| Training Age | 3.5+ years consistent (465 logged sessions since June 2022) |
-| Recent Frequency | ~3.75 days/week (last 28 days) → ramping to 5 days/week |
-| Prior Competition | 1 show — showed up ~4 weeks too soft |
-| Known Weak Points | Mid-back thickness, lateral deltoids, posterior chain |
-| Current Cardio | None (7 min warm-up only) |
-| Current Steps | Not tracked |
-| Current Diet | 3 meals/day, weekly family cheat meal (~1,500 kcal) |
+| Estimated Lean Mass | ~136 lb (61.7 kg) |
+| Training Age | 3.5+ years (465 logged sessions since June 2022) |
+| Prior Competition | 1 show (arrived ~4 weeks too soft) |
+
+---
+
+## Physique Measurements (2026-02-22)
+
+| Area | Inches | Centimeters | Notes |
+|------|--------|-------------|-------|
+| Waist | 35.0 in | 88.9 cm | Primary visual limiter |
+| Chest | 40.0 in | 101.6 cm | Foundational stage |
+| Shoulders* | 49.0 in | 124.5 cm | Needs reconfirmation |
+| Left Arm | 13.0 in | 33.0 cm | Relaxed |
+| Right Arm | 13.2 in | 33.5 cm | Relaxed |
+| Left Thigh | 20.8 in | 52.8 cm | Mid-thigh |
+| Right Thigh | 21.0 in | 53.3 cm | Mid-thigh |
+
+\*Shoulder measurement method needs standardization.
+
+---
+
+## Structural Ratios (2026-02-22)
+
+- Chest / Waist: **1.14**
+- Arm / Waist (avg 13.1 in): **0.37**
+- Thigh / Waist (avg 20.9 in): **0.60**
+- Shoulder / Waist: **1.40**
+
+---
+
+## Strength Profile (Best Recent Sets — Last 84 Days)
+
+| Lift | Best Set | Est. 1RM (Epley) | Date |
+|------|----------|------------------|------|
+| Barbell Squat | 275 × 13 | ~394 lb (179 kg) | 2025-12-07 |
+| Barbell Bench Press | 185 × 13 | ~265 lb (120 kg) | 2025-12-29 |
+| Incline Barbell Bench | 165 × 8 | ~209 lb (95 kg) | 2026-02-15 |
+| Pull-Ups | 8 reps @ 172 lb BW | — | Current |
+| Bent Over Barbell Row | 155 × 18 | ~248 lb (112 kg) | 2025-12-30 |
+
+---
+
+## Current Training & Lifestyle (As of 2026-02-22)
+
+| Category | Status |
+|----------|--------|
+| Training Frequency | ~3.75 days/week (ramping to 5) |
+| Cardio | None (7-min warm-up only) |
+| Daily Steps | Not tracked |
+| Diet Structure | 3 meals/day |
+| Weekly Refeed | ~1,500 kcal unstructured cheat meal |
 | Supplements | Creatine |
-| Lifestyle Stressor | Medium (active job search + interview prep) |
+| Lifestyle Stress | Moderate (active job search) |
 | Posing Practice | None |
 
 ---
 
-## Current Strength Profile (from Strong export, last 84 days)
+## Known Weak Points (Stage-Relevant)
 
-| Lift | Best Recent Set | Est. 1RM (Epley) | Date |
-|------|----------------|:-----------------:|------|
-| Barbell Squat | 275 × 13 | ~394 | Dec 7, 2025 |
-| Barbell Bench Press | 185 × 13 | ~265 | Dec 29, 2025 |
-| Incline Barbell Bench | 165 × 8 | ~209 | Feb 15, 2026 |
-| Bodyweight Pull-Up | 8+ reps at BW (172 lb) | — | Current |
-| Bent Over Barbell Row | 155 × 18 | ~248 | Dec 30, 2025 |
+- Mid-back thickness  
+- Lateral deltoids  
+- Posterior chain  
+- Conditioning  
 
 ---
 
-## Key Dates
+## Overall Classification (2026-02-22)
 
-| Milestone | Weeks Out | Date |
-|-----------|:---------:|------|
-| **Start** | 28 | Sat, Feb 21, 2026 |
-| Deload #1 | 22 | Sat, Apr 4, 2026 |
-| Phase 1 ends | 16 | Sat, May 16, 2026 |
-| Phase 2 starts | 15 | Sat, May 23, 2026 |
-| Federation decision deadline | 20 | Sat, Apr 18, 2026 |
-| Mid-prep checkpoint | 12 | Sat, Jun 13, 2026 |
-| Deload #4 | 8 | Sat, Jul 11, 2026 |
-| Phase 3 starts | 7 | Sat, Jul 18, 2026 |
-| Peak week programming finalized | 6 | Sat, Jul 25, 2026 |
-| Deload #5 | 4 | Sat, Aug 8, 2026 |
-| **Show week** | 0 | **Sat, Sep 5, 2026** |
-
----
-
-## Lessons From the Last Prep
-
-You showed up 4 weeks too soft. That means one or more of the following happened:
-
-1. The deficit started too late or too shallow
-2. Adherence slipped in ways that weren't accounted for (the weekly cheat meal alone can erase 2–3 days of deficit)
-3. No cardio or step tracking meant you had no secondary lever when fat loss stalled
-4. Getting sick at ~4 weeks out suggests you were under-recovered — possibly from a panic-cut stacking multiple stressors simultaneously
-
-Your old training program also wasn't competition-specific. It was general hypertrophy (chest/bicep splits, no delt or back emphasis, percentage-based progression with AMRAP test weeks). The exercises were fine but the volume allocation didn't target what MP judges score.
-
-**This plan prevents all four of those problems.**
-
+- Lean mass: **Adequate natural base**
+- Conditioning: **Above stage-ready body fat**
+- Development Stage: **Foundation with large growth runway**
+- Primary Limiter: **Conditioning, not strength**
